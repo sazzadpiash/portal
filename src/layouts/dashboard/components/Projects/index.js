@@ -61,7 +61,7 @@ function Projects() {
 
   return (
     <Card>
-      <SoftBox display="flex" justifyContent="space-between" alignItems="center" p={3}>
+      {/* <SoftBox display="flex" justifyContent="space-between" alignItems="center" p={3}>
         <SoftBox>
           <SoftTypography variant="h6" gutterBottom>
             Projects
@@ -87,7 +87,7 @@ function Projects() {
           </Icon>
         </SoftBox>
         {renderMenu}
-      </SoftBox>
+      </SoftBox> */}
       <SoftBox
         sx={{
           "& .MuiTableRow-root:not(:last-child)": {

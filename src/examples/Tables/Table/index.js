@@ -93,9 +93,9 @@ function Table({ columns, rows }) {
             borderBottom={row.hasBorder ? `${borderWidth[1]} solid ${light.main}` : null}
           >
             <SoftBox display="flex" alignItems="center" py={0.5} px={1}>
-              <SoftBox mr={2}>
+              {/* <SoftBox mr={2}>
                 <SoftAvatar src={row[name][0]} name={row[name][1]} variant="rounded" size="sm" />
-              </SoftBox>
+              </SoftBox> */}
               <SoftTypography variant="button" fontWeight="medium" sx={{ width: "max-content" }}>
                 {row[name][1]}
               </SoftTypography>
